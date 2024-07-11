@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quién quiere ser millonario?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><img width="30%" src="./logo.png" alt=""></h1>
+        <div class="question-section">
+            <p id="question"></p>
+            <div class="options">
+                <div class="option-row">
+                    <button class="option" id="option1"></button>
+                    <button class="option" id="option2"></button>
+                </div>
+                <div class="option-row">
+                    <button class="option" id="option3"></button>
+                    <button class="option" id="option4"></button>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="random-question">Mezclar</button>
+            <button id="reset-counter">Reiniciar</button>
+            <button id="skip-question">Saltar</button>
+            <button id="fifty-fifty">50:50</button>
+            <button id="remove-question">Eliminar</button>
+            <button id="reintegrate-skipped">Reintegrar</button>
+        </div>
+        <div id="score">Preguntas acertadas: 0</div>
+        <div class="timer-controls">
+            <div id="timer">30</div>
+            <button id="start-timer">Iniciar</button>
+            <button id="pause-timer">Pausar</button>
+            <button id="reset-timer">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
